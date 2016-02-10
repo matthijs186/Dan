@@ -17,6 +17,6 @@ hook('pfuff')
     ->help('Pink fluffy unicorns')
     ->func(function(Collection $args) {
         $channel = $args->get('channel');
-        $channel->message('PINK FLUFFY UNICORNS DANCING ON RAINBOWS');
+        $channel->message('<pink>PINK FLUFFY UNICORNS DANCING ON RAINBOWS</pink>');
         $channel->message('https://www.youtube.com/watch?v=qRC4Vk6kisY');
     });
